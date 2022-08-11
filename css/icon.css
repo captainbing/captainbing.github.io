@@ -13,6 +13,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-lanqiu:before {
+    content: "\e601";
+}
+
 .icon-GitHub:before {
     content: "\ea0a";
 }

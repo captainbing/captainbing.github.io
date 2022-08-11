@@ -1,3 +1,6 @@
+/*
+更改博客标题字体
+*/
 @font-face {
     font-family:'arzhu';
     src:url('../css/font/Muyao-Softbrush.ttf'); /* 修改成你的字体 */
@@ -12,13 +15,35 @@ span#subtitle {
 a#site-name {
     font-family:arzhu!important
 }
+
+
 /*
 页脚透明化
 */
-#footer::before {
+/*#footer::before {
     background: rgba(255,255,255,.15)
 }
 
+
+#footer #footer-wrap {
+    color: var(--font-color)
+}
+
+#footer #footer-wrap a {
+    color: var(--font-color)
+}*/
+
+#footer {
+    background: rgba(255,255,255,.15);
+    color: #000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    backdrop-filter: saturate(100%) blur(5px)
+}
+
+#footer::before {
+    background: rgba(255,255,255,.15)
+}
 
 #footer #footer-wrap {
     color: var(--font-color)
@@ -42,7 +67,7 @@ img {
 
 /* 页脚footer */
 /* 渐变色滚动动画 */
-@-webkit-keyframes Gradient {
+/*@-webkit-keyframes Gradient {
     0% {
         background-position: 0 50%;
     }
@@ -99,11 +124,11 @@ img {
 }
 #footer:before {
     background-color: rgba(0, 0, 0, 0);
-}
+}*/
 /*页脚a标签字体颜色*/
-#footer-wrap a {
+/*#footer-wrap a {
     color: #00c4b6;
-}
+}*/
 
 /* 博主昵称颜色 */
 .author-info__name {
