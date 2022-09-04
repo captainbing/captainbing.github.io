@@ -6,6 +6,11 @@
     src:url('../css/font/Muyao-Softbrush.ttf'); /* 修改成你的字体 */
     font-display:swap
 }
+
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
 h1#site-title {
     font-family:arzhu!important
 }
