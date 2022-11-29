@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>简单实现邮件发送</title>
+      <link href="/2022/11/29/%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81/"/>
+      <url>/2022/11/29/%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+          <category> SpringBoot </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vue2</title>
       <link href="/2022/10/08/vue2/"/>
       <url>/2022/10/08/vue2/</url>
